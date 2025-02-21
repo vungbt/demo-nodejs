@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const app = express();
-const PORT = 3000;
+const PORT = 3003;
 
 // Middleware
 app.use(bodyParser.json());
